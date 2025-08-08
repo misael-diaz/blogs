@@ -53,6 +53,32 @@ using pattern matching on the contents of several files (usually plain text) in 
 to determine what file had the info I was looking for. Only years later I learned that
 some developers refer to this as the grepability of a codebase.
 
+Not long after learning how to run Matlab as a background process in Linux I realized
+that my work was limited by the licensing limitations, had a fixed number of concurrent
+instances. This motivated me to port my Matlab code to Fortran, a language created for
+the sole purpose of developing numerical applications. That led me to discover the
+open-source GNU Fortran compiler, learn about makefiles, and also find out how to
+link my code to specialized libraries for matrix algebra such as BLAS and LAPACK. So
+I had to learn how to link libraries to my code by searching on the internet and reading
+the gcc man pages. I also remember digging info through tutorials because the GNU Make
+documentation was difficult for me to understand at that time. I admit that I was in a
+hurry and just maybe if I had spent a bit more of time on going through the docs my
+experience would have been better, I admit that I just wanted to get to know the minimum
+needed to get something done. Nowadays, there's not a single C/C++
+or Fortran project of mine that I setup without a handcrafted makefile. I know that
+there's CMake but I am so accustomed to working with GNU Make that I have never
+felt the need to learn CMake. In the end I was able to learn how to compile my Fortran
+code and link it to external libraries and in the process of doing that I learned from
+first hard experience the difference in performance of interpreted languages like Matlab
+and compiled languages like Fortran.
+
+As my experience with Fortran grew I started to rely less on Matlab. At some point
+I used Matlab only for plotting but my thesis advisor never liked the quality of the
+plots that I was able to produce with Matlab and that motivated me to seek for an
+open-source alternative. My advisor recommended me to use grace but it was GNU plot that
+did it for me. And for the first time I felt the joy of being able to do quality work
+without relying on commercial software.
+
 I am sure there's a lot I still don't know about Linux but what I have learned has been
 a direct consequence of the work that I need to do so it has become an integral part
 of my daily development experience. As time passes I keep learning more and more about
