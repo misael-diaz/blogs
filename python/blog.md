@@ -1,5 +1,7 @@
 # Python C Interoperability
 
+**Current Status**: wrote down initial ideas, things that I would like to share, and things I would like to research to prepare for the talk. *Development* is temporarily *paused* due to prior commitments and will resume at the beginning of *June*.
+
 ## Drafting
 
 ### Assembly
